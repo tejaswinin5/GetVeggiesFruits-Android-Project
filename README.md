@@ -1,6 +1,6 @@
 # Get-Veggies-Android-Project
 
 Team Members:
-Sonam Gadkari
+Sonam Gadekari
 Harika Naidu
 Sai Tejaswini Narne
