@@ -1,4 +1,4 @@
-# Get-Veggies-Android-Project
+# GetVeggiesFruits-Android-Project
 
 Team Members:
 Harika Naidu
