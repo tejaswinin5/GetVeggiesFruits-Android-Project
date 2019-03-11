@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
-        android:layout_marginBottom="108dp"
+        android:layout_marginBottom="80dp"
         android:text="Continue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -30,10 +30,10 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="134dp"
-        android:layout_height="37dp"
+        android:layout_height="32dp"
         android:layout_marginStart="31dp"
         android:layout_marginEnd="254dp"
-        android:layout_marginBottom="636dp"
+        android:layout_marginBottom="650dp"
         android:text="Billing Information"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -90,11 +90,10 @@
         android:id="@+id/editText4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="182dp"
+        android:layout_marginStart="172dp"
         android:layout_marginTop="196dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -103,7 +102,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="78dp"
         android:text="Address"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -114,7 +113,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="281dp"
+        android:layout_marginBottom="35dp"
         android:text="Card Type"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -134,7 +135,9 @@
         android:layout_height="27dp"
         android:layout_marginStart="31dp"
         android:layout_marginTop="383dp"
+        android:layout_marginEnd="45dp"
         android:text="Expiration"
+        app:layout_constraintEnd_toStartOf="@+id/editText7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -187,7 +190,7 @@
         android:id="@+id/editText8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="173dp"
+        android:layout_marginStart="160dp"
         android:layout_marginTop="411dp"
         android:ems="10"
         android:inputType="textPersonName"

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Get Veggies &amp; Fruits</string>
+    <string name="card_prompt">Choose a payment type</string>
+    <string-array name="country_arrays">
+        <item>Cash on delivery</item>
+        <item>DebitCard or credit card</item>
+
+    </string-array>
 </resources>
