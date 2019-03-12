@@ -1,4 +1,4 @@
-[11:52 PM, 3/11/2019] Sonam Nwmsu: package com.example.getveggiesfruits;
+package com.example.getveggiesfruits;
 
 import android.content.Intent;
 import android.os.Bundle;
