@@ -8,14 +8,14 @@
     <Button
         android:id="@+id/tvName"
         android:layout_width="416dp"
-        android:layout_height="111dp"
+        android:layout_height="132dp"
         android:text="Order Summary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004" />
+        app:layout_constraintVertical_bias="0.011" />
 
     <Button
         android:id="@+id/BillingID"
@@ -30,7 +30,7 @@
         app:layout_constraintVertical_bias="0.278" />
 
     <Button
-        android:id="@+id/billingID2"
+        android:id="@+id/TrackingID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tracking Number"
@@ -42,7 +42,7 @@
         app:layout_constraintVertical_bias="0.376" />
 
     <Button
-        android:id="@+id/billingID"
+        android:id="@+id/CustomerID"
         android:layout_width="153dp"
         android:layout_height="wrap_content"
         android:text="Customer Name"
@@ -54,7 +54,7 @@
         app:layout_constraintVertical_bias="0.475" />
 
     <Button
-        android:id="@+id/billingID3"
+        android:id="@+id/CustomerAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Customer Address"
@@ -115,11 +115,11 @@
         app:layout_constraintVertical_bias="0.814" />
 
     <TextView
-        android:id="@+id/textView8"
-        android:layout_width="169dp"
-        android:layout_height="117dp"
-        android:layout_marginStart="233dp"
-        android:layout_marginTop="400dp"
+        android:id="@+id/Address"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="352dp"
         android:hint="Address"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

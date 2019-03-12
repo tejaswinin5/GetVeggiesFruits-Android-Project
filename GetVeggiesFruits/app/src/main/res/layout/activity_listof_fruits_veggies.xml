@@ -45,7 +45,7 @@
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="424dp"
-        android:text="Just click on the item to increase the quantity by one LB."
+        android:text="Just click on the item to increase the quantity by one and one LB to Grapes."
         android:textColor="@android:color/holo_red_dark"
         android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
