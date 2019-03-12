@@ -11,7 +11,7 @@ public class OrderSummary extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ordersummary);
-        TextView btn = (TextView) findViewById(R.id.textView14);
+        TextView btn = (TextView) findViewById(R.id.name);
         btn.setText("Saitejaswini Narne");
 
     }

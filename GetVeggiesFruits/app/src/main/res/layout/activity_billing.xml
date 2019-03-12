@@ -16,10 +16,10 @@
         android:text="Continue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.734"
+        app:layout_constraintHorizontal_bias="0.669"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.968" />
+        app:layout_constraintVertical_bias="1.0" />
 
 
     <TextView
@@ -61,8 +61,8 @@
         android:layout_marginStart="173dp"
         android:layout_marginTop="93dp"
         android:ems="10"
+        android:hint="Enter First Name"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -86,8 +86,8 @@
         android:layout_marginStart="173dp"
         android:layout_marginTop="138dp"
         android:ems="10"
+        android:hint="Enter Last Name"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -98,6 +98,7 @@
         android:layout_marginStart="172dp"
         android:layout_marginTop="196dp"
         android:ems="10"
+        android:hint="Enter Address"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -164,8 +165,8 @@
         android:layout_marginStart="161dp"
         android:layout_marginTop="321dp"
         android:ems="10"
+        android:hint="Enter Card Number"
         android:inputType="textPersonName"
-        android:text="Number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -176,8 +177,8 @@
         android:layout_marginStart="161dp"
         android:layout_marginTop="366dp"
         android:ems="10"
+        android:hint="00/0000"
         android:inputType="textPersonName"
-        android:text="00/0000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -198,8 +199,8 @@
         android:layout_marginStart="160dp"
         android:layout_marginTop="411dp"
         android:ems="10"
+        android:hint="000"
         android:inputType="textPersonName"
-        android:text="000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

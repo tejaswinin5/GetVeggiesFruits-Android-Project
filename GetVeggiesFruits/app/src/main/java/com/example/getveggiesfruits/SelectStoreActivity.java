@@ -17,6 +17,7 @@ public class SelectStoreActivity extends AppCompatActivity {
     public static  final int HAPPY=0;
 
     private void initModel() {
+        StoreName.clear();
         StoreName.add("Kansas");
         StoreName.add("Missouri");
         StoreName.add("Nebraska");

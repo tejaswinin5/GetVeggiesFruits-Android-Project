@@ -26,15 +26,15 @@ public class VeggiesandFruitsActivity extends AppCompatActivity {
         Name.clear();
         Count.clear();
         Name.add("Apples");
-        Count.add(1);
+        Count.add(0);
         Name.add("Oranges");
-        Count.add(1);
+        Count.add(0);
         Name.add("Grapes");
-        Count.add(1);
+        Count.add(0);
         Name.add("Tomatoes");
-        Count.add(1);
+        Count.add(0);
         Name.add("Onions");
-        Count.add(1);
+        Count.add(0);
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +59,27 @@ public class VeggiesandFruitsActivity extends AppCompatActivity {
                     }
                 }
         );
+        Button fruitdetails = (Button) findViewById(R.id.fruitdetails);
+        fruitdetails.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(VeggiesandFruitsActivity.this, FruitsDetailsActivity.class);
+                startActivityForResult(myIntent, 1);
+            }
+        });
+
+        Button veggiedetails = (Button) findViewById(R.id.veggiedetails);
+        veggiedetails.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(VeggiesandFruitsActivity.this, VeggieDetailsActivity.class);
+                startActivityForResult(myIntent, 1);
+            }
+        });
+
     }
+
+
     public void returnToMAin(View v)
     {
         Intent intent = getIntent();
