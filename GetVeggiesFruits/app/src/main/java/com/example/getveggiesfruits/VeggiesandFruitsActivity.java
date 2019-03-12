@@ -82,9 +82,11 @@ public class VeggiesandFruitsActivity extends AppCompatActivity {
 
     public void returnToMAin(View v)
     {
-        Intent intent = getIntent();
-        setResult(HAPPY,intent);
-        finish();
+//        Intent intent = getIntent();
+//        setResult(HAPPY,intent);
+//        finish();
+        Intent myIntent = new Intent(VeggiesandFruitsActivity.this, MainActivity.class);
+        startActivityForResult(myIntent,1);
     }
     public void proceedToBilling(View v)
     {
