@@ -3,7 +3,7 @@
     <string name="card_prompt">Choose a payment type</string>
     <string-array name="country_arrays">
         <item>Cash on delivery</item>
-        <item>DebitCard or credit card</item>
+        <item>DebitCard or Credit card</item>
 
     </string-array>
 </resources>

@@ -21,3 +21,22 @@ public class BillingActivity extends AppCompatActivity {
 
             }
         });
+        Button btn1 = (Button) findViewById(R.id.button4);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                System.out.println("new intent can be created");
+                Intent intent = getIntent();
+                //      setResult(HAPPY,intent);
+                finish();
+            }
+        });
+    }
+
+    public void returnToVeggies(View v) {
+        Intent intent = getIntent();
+        //      setResult(HAPPY,intent);
+        finish();
+
+    }
+}
