@@ -23,6 +23,12 @@ public class SelectStoreActivity extends AppCompatActivity {
         StoreName.add("Nebraska");
         StoreName.add("Omaha");
         StoreName.add("Florida");
+        StoreName.add("Denver");
+        StoreName.add("St.Louise");
+        StoreName.add("Arkansa");
+        StoreName.add("California");
+        StoreName.add("NewYork");
+
     }
 
     @Override
