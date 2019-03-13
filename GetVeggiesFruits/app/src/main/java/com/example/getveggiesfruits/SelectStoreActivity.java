@@ -16,6 +16,7 @@ public class SelectStoreActivity extends AppCompatActivity {
 
     protected static ArrayList<String> StoreName = new ArrayList<String>();
     public static  final int HAPPY=0;
+    String store="";
 
     private void initModel() {
         StoreName.clear();
@@ -48,7 +49,7 @@ public class SelectStoreActivity extends AppCompatActivity {
                 new AdapterView.OnItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                        String store = String.valueOf(parent.getItemAtPosition(position));
+                        store = String.valueOf(parent.getItemAtPosition(position));
                         Toast.makeText(SelectStoreActivity.this, store, Toast.LENGTH_LONG).show();
                         // int count=Count.get(position);
                         //  Count.add(position,count+1);
@@ -62,7 +63,6 @@ public class SelectStoreActivity extends AppCompatActivity {
     public void returnAction(View v)
     {
         Intent intent = getIntent();
-        //intent.putExtra("storeName",kansas);
         setResult(HAPPY,intent);
         finish();
     }
@@ -71,7 +71,7 @@ public class SelectStoreActivity extends AppCompatActivity {
     public void selectStoreReturnAction(View v)
     {
         Intent intent = getIntent();
-
+        intent.putExtra("StoreName",store);
         setResult(HAPPY,intent);
         finish();
     }
