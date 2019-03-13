@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -36,6 +37,7 @@ public class SelectStoreActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_store);
         initModel();
+        Button selectStore = (Button) findViewById(R.id.button9);
         StoreAdapter<String> storeAdapter = new StoreAdapter<>(this,
                 android.R.layout.simple_list_item_2,
                 android.R.id.text1,
@@ -65,4 +67,12 @@ public class SelectStoreActivity extends AppCompatActivity {
         finish();
     }
 
+
+    public void selectStoreReturnAction(View v)
+    {
+        Intent intent = getIntent();
+
+        setResult(HAPPY,intent);
+        finish();
+    }
 }
