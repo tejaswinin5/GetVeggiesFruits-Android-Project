@@ -7,8 +7,9 @@
 
     <ListView
         android:id="@+id/VeggiesFruitsList"
-        android:layout_width="395dp"
-        android:layout_height="495dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -21,10 +22,10 @@
         android:text="RETURN"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintHorizontal_bias="0.16"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888" />
+        app:layout_constraintVertical_bias="0.976" />
 
     <Button
         android:id="@+id/SELECTANDPROCEED"
@@ -34,18 +35,18 @@
         android:text="SELECT AND PROCEED"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintHorizontal_bias="0.841"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888" />
+        app:layout_constraintVertical_bias="0.976" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="379dp"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="424dp"
-        android:text="Just click on the item to increase the quantity by one and one LB to Grapes."
+        android:layout_marginTop="500dp"
+        android:text="Just click on the item to increase the quantity by 1 and 1 LB to Grapes."
         android:textColor="@android:color/holo_red_dark"
         android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,19 +56,79 @@
         android:id="@+id/fruitdetails"
         android:layout_width="290dp"
         android:layout_height="43dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="328dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="388dp"
         android:text="To Know Description of Fruits"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/veggiedetails"
-        android:layout_width="292dp"
+        android:layout_width="299dp"
         android:layout_height="39dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="371dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="428dp"
         android:text="To Know Description of Veggies"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="61dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/appleicon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="71dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115"
+        app:srcCompat="@drawable/orange" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="75dp"
+        android:layout_height="58dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.231"
+        app:srcCompat="@drawable/grapes" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="69dp"
+        android:layout_height="59dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333"
+        app:srcCompat="@drawable/tomato" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="71dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437"
+        app:srcCompat="@drawable/onion" />
 </android.support.constraint.ConstraintLayout>
