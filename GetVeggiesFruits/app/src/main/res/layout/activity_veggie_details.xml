@@ -48,7 +48,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/oniondescription"
         android:layout_width="231dp"
         android:layout_height="186dp"
         android:layout_marginStart="164dp"
