@@ -30,7 +30,6 @@ public class SelectStoreActivity extends AppCompatActivity {
         StoreName.add("Arkansa");
         StoreName.add("California");
         StoreName.add("NewYork");
-
     }
 
     @Override
@@ -57,16 +56,13 @@ public class SelectStoreActivity extends AppCompatActivity {
                     }
                 }
         );
-
-
-    }
+   }
     public void returnAction(View v)
     {
         Intent intent = getIntent();
         setResult(HAPPY,intent);
         finish();
     }
-
 
     public void selectStoreReturnAction(View v)
     {

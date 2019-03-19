@@ -23,7 +23,6 @@ public class VeggiesAdapter<String> extends ArrayAdapter<String> {
 
     @NonNull
     @Override
-
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         View v = super.getView(position, convertView, parent);
         TextView eventCount = v.findViewById(android.R.id.text2);

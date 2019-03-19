@@ -59,6 +59,7 @@ public class VeggiesandFruitsActivity extends AppCompatActivity {
                     }
                 }
         );
+
         Button fruitdetails = (Button) findViewById(R.id.fruitdetails);
         fruitdetails.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,7 +80,6 @@ public class VeggiesandFruitsActivity extends AppCompatActivity {
 
     }
 
-
     public void returnToMAin(View v)
     {
 //        Intent intent = getIntent();
@@ -88,6 +88,7 @@ public class VeggiesandFruitsActivity extends AppCompatActivity {
         Intent myIntent = new Intent(VeggiesandFruitsActivity.this, MainActivity.class);
         startActivityForResult(myIntent,1);
     }
+
     public void proceedToBilling(View v)
     {
         Intent myIntent = new Intent(VeggiesandFruitsActivity.this, BillingActivity.class);
