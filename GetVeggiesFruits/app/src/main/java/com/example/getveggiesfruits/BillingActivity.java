@@ -12,7 +12,7 @@ public class BillingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_billing);
 
-        Button btn = (Button) findViewById(R.id.button2);
+        Button btn = (Button) findViewById (R.id.continueBUT);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -21,7 +21,7 @@ public class BillingActivity extends AppCompatActivity {
 
             }
         });
-        Button btn1 = (Button) findViewById(R.id.button4);
+        Button btn1 = (Button) findViewById(R.id.backBUT);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
