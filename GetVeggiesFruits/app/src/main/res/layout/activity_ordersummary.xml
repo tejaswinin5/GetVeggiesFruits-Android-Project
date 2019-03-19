@@ -110,16 +110,17 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.814" />
+        app:layout_constraintVertical_bias="0.889" />
 
     <TextView
         android:id="@+id/Address"
         android:layout_width="160dp"
         android:layout_height="45dp"
         android:layout_marginStart="232dp"
-        android:layout_marginTop="352dp"
+        android:layout_marginTop="400dp"
         android:hint="Address"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -128,8 +129,8 @@
         android:id="@+id/returntomain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="492dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="520dp"
         android:onClick="returnToMain"
         android:text="Return to Home for more Purchase"
         app:layout_constraintStart_toStartOf="parent"
