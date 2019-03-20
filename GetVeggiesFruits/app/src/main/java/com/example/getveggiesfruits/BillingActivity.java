@@ -33,10 +33,10 @@ public class BillingActivity extends AppCompatActivity {
                 ini.putExtra("CustomerFName",customerFName.toString());
                 ini.putExtra("CustomerLName",customerLName.toString());
                 ini.putExtra("CustomerAddress",customerAddress.toString());
-                ini.putExtra("CustomerCardType",customerCardType);
-                ini.putExtra("CustomerCardNumber",customerCardNumber);
-                ini.putExtra("CustomerExpirationDate",customerExpirationDate);
-                ini.putExtra("CustomerCVV",customerCVV);
+                ini.putExtra("CustomerCardType",customerCardType.toString());
+             //   ini.putExtra("CustomerCardNumber",customerCardNumber);
+              //  ini.putExtra("CustomerExpirationDate",customerExpirationDate);
+              //  ini.putExtra("CustomerCVV",customerCVV);
                 startActivityForResult(ini, 1);
 
             }
