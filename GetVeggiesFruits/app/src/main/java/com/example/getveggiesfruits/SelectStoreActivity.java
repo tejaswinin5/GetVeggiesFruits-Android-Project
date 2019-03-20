@@ -37,7 +37,7 @@ public class SelectStoreActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_store);
         initModel();
-        Button selectStore = (Button) findViewById(R.id.button9);
+        Button selectStore = (Button) findViewById(R.id.proceedButton);
         StoreAdapter<String> storeAdapter = new StoreAdapter<>(this,
                 android.R.layout.simple_list_item_2,
                 android.R.id.text1,
