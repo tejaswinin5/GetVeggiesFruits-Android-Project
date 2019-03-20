@@ -8,6 +8,15 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class OrderSummary extends AppCompatActivity {
+    public static  final int HAPPY=0;
+    String customerFName;
+    String customerLName;
+    String customerAddress;
+    String customerCardType;
+    String customerCardNumber;
+    String customerExpirationDate;
+    String customerCVV;
+    //String CustomerCardNumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,12 +36,6 @@ public class OrderSummary extends AppCompatActivity {
                 "Maryville " +
                 "MO " +
                 "64468  ");
-
-
-
-
-
-
     }
 
     public void returnToMain(View v)
@@ -42,6 +45,20 @@ public class OrderSummary extends AppCompatActivity {
 //        finish();
         Intent myIntent = new Intent(OrderSummary.this, MainActivity.class);
         startActivityForResult(myIntent,1);
+    }
+
+    public void selectBillingAction(View v)
+    {
+        Intent intent = getIntent();
+        intent.putExtra("CustomerFName",customerFName);
+        intent.putExtra("CustomerLName",customerLName);
+        intent.putExtra("CustomerAddress",customerAddress);
+        intent.putExtra("CustomerCardType",customerCardType);
+        intent.putExtra("CustomerCardNumber",customerCardNumber);
+        intent.putExtra("CustomerExpirationDate",customerExpirationDate);
+        intent.putExtra("CustomerCVV",customerCVV);
+        setResult(HAPPY,intent);
+        finish();
     }
 
 }
