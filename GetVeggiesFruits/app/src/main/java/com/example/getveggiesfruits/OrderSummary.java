@@ -22,9 +22,19 @@ public class OrderSummary extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ordersummary);
-        TextView btn = (TextView) findViewById(R.id.name);
-        btn.setText("Sai Tejaswini Narne");
 
+        Intent intent = getIntent();
+        String customerFName= intent.getStringExtra("CustomerFName");
+        String customerLName= intent.getStringExtra("CustomerLName");
+        String customerAddress= intent.getStringExtra("CustomerAddress");
+        String customerCardType= intent.getStringExtra("CustomerCardType");
+        String customerCardNumber= intent.getStringExtra("CustomerCardNumber");
+        String customerExpirationDate= intent.getStringExtra("CustomerExpirationDate");
+        String customerCVV= intent.getStringExtra("CustomerCVV");
+        TextView btn = (TextView) findViewById(R.id.name);
+        //btn.setText(customerFName);
+        btn.setText("SaiTejaswiniNarne");
+        System.out.println("customerFName"+customerFName);
         TextView btn1 = (TextView) findViewById(R.id.billingid);
         btn1.setText("10354");
 
@@ -47,18 +57,5 @@ public class OrderSummary extends AppCompatActivity {
         startActivityForResult(myIntent,1);
     }
 
-    public void selectBillingAction(View v)
-    {
-        Intent intent = getIntent();
-        intent.putExtra("CustomerFName",customerFName);
-        intent.putExtra("CustomerLName",customerLName);
-        intent.putExtra("CustomerAddress",customerAddress);
-        intent.putExtra("CustomerCardType",customerCardType);
-        intent.putExtra("CustomerCardNumber",customerCardNumber);
-        intent.putExtra("CustomerExpirationDate",customerExpirationDate);
-        intent.putExtra("CustomerCVV",customerCVV);
-        setResult(HAPPY,intent);
-        finish();
-    }
 
 }
