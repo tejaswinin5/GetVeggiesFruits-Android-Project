@@ -8,13 +8,6 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class BillingActivity extends AppCompatActivity {
- //   String customerFName;
-  //  String customerLName;
-   // String customerAddress;
-  //  String customerCardType;
-  //  String customerCardNumber;
-  //  String customerExpirationDate;
-   // String customerCVV;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,13 +23,10 @@ public class BillingActivity extends AppCompatActivity {
                 TextView customerCardType=(TextView)findViewById(R.id.cardNumber);
 
                 Intent ini=new Intent(BillingActivity.this, OrderSummary.class);
-                ini.putExtra("CustomerFName",customerFName.toString());
-                ini.putExtra("CustomerLName",customerLName.toString());
-                ini.putExtra("CustomerAddress",customerAddress.toString());
-                ini.putExtra("CustomerCardType",customerCardType.toString());
-             //   ini.putExtra("CustomerCardNumber",customerCardNumber);
-              //  ini.putExtra("CustomerExpirationDate",customerExpirationDate);
-              //  ini.putExtra("CustomerCVV",customerCVV);
+                ini.putExtra("CustomerFName",customerFName.getText().toString());
+                ini.putExtra("CustomerLName",customerLName.getText().toString());
+                ini.putExtra("CustomerAddress", customerAddress.getText().toString());
+              //  ini.putExtra("CustomerCardType",customerCardType.getText().toString());
                 startActivityForResult(ini, 1);
 
             }
