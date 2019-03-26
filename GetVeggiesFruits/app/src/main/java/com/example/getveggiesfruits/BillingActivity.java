@@ -26,7 +26,6 @@ public class BillingActivity extends AppCompatActivity {
                 ini.putExtra("CustomerFName",customerFName.getText().toString());
                 ini.putExtra("CustomerLName",customerLName.getText().toString());
                 ini.putExtra("CustomerAddress", customerAddress.getText().toString());
-              //  ini.putExtra("CustomerCardType",customerCardType.getText().toString());
                 startActivityForResult(ini, 1);
 
             }
@@ -37,7 +36,6 @@ public class BillingActivity extends AppCompatActivity {
             public void onClick(View v) {
                 System.out.println("new intent can be created");
                 Intent intent = getIntent();
-                //      setResult(HAPPY,intent);
                 finish();
             }
         });
@@ -45,7 +43,6 @@ public class BillingActivity extends AppCompatActivity {
 
     public void returnToVeggies(View v) {
         Intent intent = getIntent();
-        //      setResult(HAPPY,intent);
         finish();
 
     }

@@ -37,7 +37,11 @@ public class OrderSummary extends AppCompatActivity {
         TextView tv = (TextView) findViewById(R.id.name);
         tv.setText(customerFName+customerLName);
         TextView tv1 = (TextView) findViewById(R.id.billingid);
-        int n=100000+rand.nextInt()*900000;
+        int n=100000+rand.nextInt()*90000;
+        if(n<0)
+        {
+            n=n*(-1);
+        }
         tv1.setText(n+"");
         String k="T"+(109879+rand.nextInt()*345678);
         TextView tv2 = (TextView) findViewById(R.id.tracking);
@@ -51,6 +55,5 @@ public class OrderSummary extends AppCompatActivity {
         Intent myIntent = new Intent(OrderSummary.this, MainActivity.class);
         startActivityForResult(myIntent,1);
     }
-
 
 }
