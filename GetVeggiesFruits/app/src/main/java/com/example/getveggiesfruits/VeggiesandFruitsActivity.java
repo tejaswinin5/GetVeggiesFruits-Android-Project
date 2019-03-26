@@ -77,7 +77,14 @@ public class VeggiesandFruitsActivity extends AppCompatActivity {
                 startActivityForResult(myIntent, 1);
             }
         });
-
+        Button button2 = (Button) findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                initModel();
+                vegListview.invalidateViews();
+            }
+        });
     }
 
     public void returnToMAin(View v)
