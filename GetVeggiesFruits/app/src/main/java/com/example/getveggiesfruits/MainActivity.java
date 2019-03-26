@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -34,14 +35,26 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(myIntent, 1);
             }
         });
-        Button cntButton = (Button) findViewById(R.id.CONTINUE);
-        cntButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myIntent = new Intent(MainActivity.this, VeggiesandFruitsActivity.class);
-                startActivityForResult(myIntent, 1);
-            }
-        });
+
+
+
+            Button cntButton = (Button) findViewById(R.id.CONTINUE);
+            cntButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    EditText tv=(EditText) findViewById(R.id.StoreName);
+                    if(!tv.getText().toString().equals("")) {
+                        System.out.println("text"+tv.getText().toString()+"jhghggh");
+                        System.out.println("I m selected");
+                        Intent myIntent = new Intent(MainActivity.this, VeggiesandFruitsActivity.class);
+                        startActivityForResult(myIntent, 1);
+                    }
+                    else
+                    {
+                        Toast.makeText(getApplicationContext(),"Select the store",Toast.LENGTH_SHORT).show();
+                    }
+                }
+            });
 
 
     }
