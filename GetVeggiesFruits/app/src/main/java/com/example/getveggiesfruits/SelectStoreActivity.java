@@ -30,7 +30,6 @@ public class SelectStoreActivity extends AppCompatActivity {
         StoreName.add("Arkansa");
         StoreName.add("California");
         StoreName.add("NewYork");
-
     }
 
     @Override
@@ -38,7 +37,7 @@ public class SelectStoreActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_store);
         initModel();
-        Button selectStore = (Button) findViewById(R.id.button9);
+        Button selectStore = (Button) findViewById(R.id.proceedButton);
         StoreAdapter<String> storeAdapter = new StoreAdapter<>(this,
                 android.R.layout.simple_list_item_2,
                 android.R.id.text1,
@@ -57,16 +56,13 @@ public class SelectStoreActivity extends AppCompatActivity {
                     }
                 }
         );
-
-
-    }
+   }
     public void returnAction(View v)
     {
         Intent intent = getIntent();
         setResult(HAPPY,intent);
         finish();
     }
-
 
     public void selectStoreReturnAction(View v)
     {
