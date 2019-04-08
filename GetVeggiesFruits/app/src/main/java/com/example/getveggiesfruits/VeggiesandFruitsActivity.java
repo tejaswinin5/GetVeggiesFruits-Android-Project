@@ -96,9 +96,9 @@ public class VeggiesandFruitsActivity extends AppCompatActivity {
         startActivityForResult(myIntent,1);
     }
 
-    public void proceedToBilling(View v)
+    public void proceedToLogin(View v)
     {
-        Intent myIntent = new Intent(VeggiesandFruitsActivity.this, BillingActivity.class);
+        Intent myIntent = new Intent(VeggiesandFruitsActivity.this, LoginActivity.class);
         startActivityForResult(myIntent,1);
         //  Intent intent = getIntent();
 //        setResult(HAPPY,intent);
