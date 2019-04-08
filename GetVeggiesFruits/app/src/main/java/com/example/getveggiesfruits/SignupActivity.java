@@ -40,4 +40,31 @@ public class SignupActivity extends AppCompatActivity {
         }else if(!edPassword.getText().toString().equals(edConfirmPassword.getText().toString())){
             Toast.makeText(SignupActivity.this, "Passwords are not the same!", Toast.LENGTH_LONG).show();
         }
-        
+        else{
+
+            final ProgressDialog progress = new ProgressDialog(this);
+            progress.setMessage("Loading ...");
+            progress.show();
+            ParseUser user = new ParseUser();
+            user.setUsername(edEmail.getText().toString().trim());
+            user.setEmail(edEmail.getText().toString().trim());
+            user.setPassword(edPassword.getText().toString());
+            user.put("name", edName.getText().toString().trim());
+            user.signUpInBackground(new SignUpCallback() {
+                @Override
+                public void done(ParseException e) {
+                    progress.dismiss();
+                    if (e == null) {
+                        Toast.makeText(SignupActivity.this, "Welcome!", Toast.LENGTH_LONG).show();
+                        Intent intent = new Intent(SignupActivity.this, HomeActivity.class);
+                        startActivity(intent);
+                        finish();
+                    } else {
+                        ParseUser.logOut();
+                        Toast.makeText(SignupActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
+                    }
+                }
+            });
+        }
+    }
+}
