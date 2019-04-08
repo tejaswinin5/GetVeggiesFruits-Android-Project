@@ -27,7 +27,7 @@
         android:layout_marginTop="200dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="452dp"
-        android:background="@color/colorPrimary"
+        android:background="@android:color/holo_purple"
         android:text="Deal of 5% on purchase of Apples more than 2Lbs of purchase."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
