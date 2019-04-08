@@ -27,3 +27,17 @@ public class SignupActivity extends AppCompatActivity {
         edPassword = findViewById(R.id.edPassword);
         edConfirmPassword = findViewById(R.id.edConfirmPassword);
     }
+
+    public void signup(View view) {
+        if( TextUtils.isEmpty(edName.getText())){
+            edName.setError( "Name is required!" );
+        }else if( TextUtils.isEmpty(edEmail.getText())){
+            edEmail.setError( "Email is required!" );
+        }else if( TextUtils.isEmpty(edPassword.getText())){
+            edPassword.setError( "Password is required!" );
+        }else if( TextUtils.isEmpty(edConfirmPassword.getText())){
+            edConfirmPassword.setError( "Confirm password is required!" );
+        }else if(!edPassword.getText().toString().equals(edConfirmPassword.getText().toString())){
+            Toast.makeText(SignupActivity.this, "Passwords are not the same!", Toast.LENGTH_LONG).show();
+        }
+        
