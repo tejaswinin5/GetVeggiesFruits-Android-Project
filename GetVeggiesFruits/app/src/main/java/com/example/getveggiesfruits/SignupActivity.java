@@ -13,3 +13,17 @@ import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
+
+public class SignupActivity extends AppCompatActivity {
+
+    EditText edName, edEmail, edPassword, edConfirmPassword;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_signup);
+
+        edName = findViewById(R.id.edName);
+        edEmail = findViewById(R.id.edEmail);
+        edPassword = findViewById(R.id.edPassword);
+        edConfirmPassword = findViewById(R.id.edConfirmPassword);
+    }
