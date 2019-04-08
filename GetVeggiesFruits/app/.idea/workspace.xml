@@ -6,10 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25a73de9-d46b-4e5a-89c8-8bc264466a89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_dealsofthe_day.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_dealsofthe_day.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-    </list>
+    <list default="true" id="25a73de9-d46b-4e5a-89c8-8bc264466a89" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +255,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.2397882" />
