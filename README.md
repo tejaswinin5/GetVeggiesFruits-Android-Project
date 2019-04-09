@@ -40,7 +40,15 @@ This is a login page for the users who has credentials or we also has an option 
 
 This is the Signup page if the user is new to the webiste.
 
-![10](https://user-images.githubusercontent.com/42948603/55765421-46da7800-5a35-11e9-82b5-0d0b80daa34a.PNG)
+![Capture2](https://user-images.githubusercontent.com/43020059/55767716-ad649380-5a3f-11e9-9868-ddcbf50b23b3.JPG)
+
+This is the Forgot password page if user forgots password
+
+![Capture3](https://user-images.githubusercontent.com/43020059/55767753-d127d980-5a3f-11e9-9b88-d167a68dedf5.JPG)
+
+This is the page after user does login
+
+![Capture5](https://user-images.githubusercontent.com/43020059/55767855-2a900880-5a40-11e9-9e6b-66c8e51c1b46.JPG)
 
 This is the billing page of the customer which ask to fill some required details of the customer to the payment methods.
 
