@@ -13,7 +13,7 @@ The complete details of the device we have used in our project is:
 Device Name: Google Pixel 3 XL
 Android API: 9.0 API 28
 Size: 1440*2960 in Genymotion.
-Database:
+Database: Back4App.com (Cloud database using MBAAS-Mobile backend as a service.)
 
 Layouts of our project:
 This is an Welcome page of the webiste which shows the options to select store and Delals of the day and continue to select the list of items.
