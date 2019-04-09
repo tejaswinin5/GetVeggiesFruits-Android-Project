@@ -36,7 +36,7 @@ This is the description page of veggies.
 
 This is a login page for the users who has credentials or we also has an option to Login as Guest if they don't want to login.
 
-![7](https://user-images.githubusercontent.com/42948603/55750208-6a3afe00-5a08-11e9-9d06-ec114b1f9bcb.PNG)
+https://github.com/SaiTejaswiniNarne/GetVeggiesFruits-Android-Project/blob/master/Capture1.JPG
 
 This is the Signup page if the user is new to the webiste.
 
