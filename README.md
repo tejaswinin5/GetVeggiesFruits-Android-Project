@@ -8,6 +8,10 @@ Akshara Gurram
 
 To run our website:
 We are using android API version of 9.0-API 28 in GENY MOTION. The size of the layout is 1440x2960 with a density of 560. 
+The complete details of the device we have used in our project is:
+Device Name: Google Pixel 3 XL
+Android API: 9.0 API 28
+Size: 1440*2960 in Genymotion.
 
 Layouts of our project:
 This is an Welcome page of the webiste which shows the options to select store and Delals of the day and continue to select the list of items.
