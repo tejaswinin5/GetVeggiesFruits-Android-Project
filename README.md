@@ -38,6 +38,10 @@ This is a login page for the users who has credentials or we also has an option 
 
 ![7](https://user-images.githubusercontent.com/42948603/55750208-6a3afe00-5a08-11e9-9d06-ec114b1f9bcb.PNG)
 
+This is the Signup page if the user is new to the webiste.
+
+![10](https://user-images.githubusercontent.com/42948603/55765421-46da7800-5a35-11e9-82b5-0d0b80daa34a.PNG)
+
 This is the billing page of the customer which ask to fill some required details of the customer to the payment methods.
 
 ![8](https://user-images.githubusercontent.com/42948603/55750290-93f42500-5a08-11e9-86bb-190cee296621.PNG)
