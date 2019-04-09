@@ -21,6 +21,7 @@ This is an Welcome page of the webiste which shows the options to select store a
 This is an locations page of the store which are available and select the required one which displays to the main page.
 
 ![2](https://github.com/SaiTejaswiniNarne/GetVeggiesFruits-Android-Project/blob/master/location%20Screen%20Shot.JPG)
+![2.1](https://github.com/SaiTejaswiniNarne/GetVeggiesFruits-Android-Project/blob/master/location1.PNG)
 
 This is an Deals of the day page which shows the current deals available and then go back to the main page.
 
