@@ -26,8 +26,8 @@ public class SelectStoreActivity extends AppCompatActivity {
         StoreName.add("Omaha");
         StoreName.add("Florida");
         StoreName.add("Denver");
-        StoreName.add("St.Louise");
-        StoreName.add("Arkansa");
+        StoreName.add("St.Louis");
+        StoreName.add("Arkansas");
         StoreName.add("California");
         StoreName.add("NewYork");
     }
