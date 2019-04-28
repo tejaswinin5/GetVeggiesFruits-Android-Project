@@ -8,6 +8,16 @@
     <string-array name="country_arrays">
         <item>Cash on delivery</item>
         <item>DebitCard or Credit card</item>
+    </string-array>
+    <string-array name="card_names">
+        <item>Visa</item>
+        <item>Amex</item>
+        <item>MasterCard</item>
+        <item>Discover</item>
+    </string-array>
 
+    <string-array name="names1">
+        <item>CreditCard</item>
+        <item>DebitCard</item>
     </string-array>
 </resources>

@@ -105,7 +105,7 @@
         android:layout_marginStart="84dp"
         android:layout_marginLeft="84dp"
         android:layout_marginTop="328dp"
-        android:text="Welcome to Our Website"
+        android:text="Welcome to Our Store"
         android:textColor="@android:color/holo_purple"
         android:textSize="22sp"
         android:textStyle="bold"
