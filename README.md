@@ -41,7 +41,7 @@ Later on, the user can register into the app and can buy veggies and fruits when
 <p></p>
 <h2>Sources used for our Project:</h2>
 <p></p>
-<h2>Tes Credentials:</h2>
+<h2>Test Credentials:</h2>
 <p>
 </p>
 <h2>Layouts of our project:<h2>
