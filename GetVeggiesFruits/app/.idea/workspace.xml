@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a31383f5-b2a9-4a33-8417-4cc7ae01ef7d" name="Default Changelist" comment="" />
+    <list default="true" id="e7cde3b7-6793-4b81-99ca-6ed9ca84c6c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/getveggiesfruits/OrderSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/getveggiesfruits/OrderSummary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_listof_fruits_veggies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_listof_fruits_veggies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_reset_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_reset_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/listoffruits_veggies_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/listoffruits_veggies_layout.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-65600892">
+    <session id="-460290285">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
@@ -41,7 +55,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/GetVeggiesFruits-Android-Project - Copy/GetVeggiesFruits/app" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -121,11 +135,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a31383f5-b2a9-4a33-8417-4cc7ae01ef7d" name="Default Changelist" comment="" />
-      <created>1556497183632</created>
+      <changelist id="e7cde3b7-6793-4b81-99ca-6ed9ca84c6c0" name="Default Changelist" comment="" />
+      <created>1556500979189</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1556497183632</updated>
+      <updated>1556500979189</updated>
     </task>
     <servers />
   </component>

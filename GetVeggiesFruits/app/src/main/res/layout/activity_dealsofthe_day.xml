@@ -9,38 +9,38 @@
     <Button
         android:id="@+id/deal1"
         android:layout_width="387dp"
-        android:layout_height="72dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="50dp"
         android:background="@color/colorAccent"
-        android:text="Deal of 10% on Oranges more than 12 items purchase"
+        android:text="Deal of 10% on Oranges more than 3Lbs of purchase"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.133" />
+        app:layout_constraintVertical_bias="0.019" />
 
     <Button
         android:id="@+id/deal2"
         android:layout_width="387dp"
-        android:layout_height="73dp"
+        android:layout_height="62dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="231dp"
+        android:layout_marginTop="200dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="452dp"
-        android:background="@color/colorPrimary"
-        android:text="Deal of 5% on purchase of Apples more than 8 items"
+        android:background="@android:color/holo_purple"
+        android:text="Deal of 5% on purchase of Apples more than 2Lbs of purchase."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.972"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/deal3"
         android:layout_width="384dp"
-        android:layout_height="85dp"
-        android:layout_marginStart="32dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="310dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="373dp"
@@ -63,8 +63,8 @@
         android:text="Go Back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintHorizontal_bias="0.088"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.172" />
+        app:layout_constraintVertical_bias="0.133" />
 </android.support.constraint.ConstraintLayout>

@@ -1,35 +1,112 @@
 package com.example.getveggiesfruits;
 
 import android.content.Context;
-import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import android.content.res.TypedArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
 import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.getveggiesfruits.ProductsVeggiesAndFruits;
+import com.example.getveggiesfruits.R;
+
 import java.util.ArrayList;
-import java.util.List;
 
 
-public class VeggiesAdapter<String> extends ArrayAdapter<String> {
-    public VeggiesAdapter(@NonNull Context context, int resource, int textViewResourceId, @NonNull List<String> objects) {
-        super(context, resource, textViewResourceId, objects);
+
+public class VeggiesAdapter extends BaseAdapter {
+
+    public ArrayList<ProductsVeggiesAndFruits> listProducts;
+    private Context context;
+
+    public VeggiesAdapter(Context context,ArrayList<ProductsVeggiesAndFruits> listProducts) {
+        this.context = context;
+        this.listProducts = listProducts;
     }
 
-    @NonNull
     @Override
-    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        View v = super.getView(position, convertView, parent);
-        TextView eventCount = v.findViewById(android.R.id.text2);
-        int count = VeggiesandFruitsActivity.Count.get(position);
-        //String countString=count+' ';
-        //String countString=Integer.toString(count);
-        eventCount.setText(VeggiesandFruitsActivity.Count.get(position).toString());
-        return v;
+    public int getCount() {
+        return listProducts.size();
+    }
+
+    @Override
+    public ProductsVeggiesAndFruits getItem(int position) {
+        return listProducts.get(position);
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return 0;
+    }
+
+    @Override
+    public View getView(final int position, View convertView
+            , ViewGroup parent) {
+        View row;
+        final com.example.getveggiesfruits.ListViewHolder listViewHolder;
+        if(convertView == null)
+        {
+            LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            row = layoutInflater.inflate(R.layout.listoffruits_veggies_layout,parent,false);
+            listViewHolder = new com.example.getveggiesfruits.ListViewHolder();
+            listViewHolder.tvProductName = row.findViewById(R.id.tvProductName);
+            listViewHolder.ivProduct = row.findViewById(R.id.ivProduct);
+            listViewHolder.tvPrice = row.findViewById(R.id.tvPrice);
+            listViewHolder.btnPlus = row.findViewById(R.id.ib_addnew);
+            listViewHolder.edTextQuantity = row.findViewById(R.id.editTextQuantity);
+            listViewHolder.btnMinus = row.findViewById(R.id.ib_remove);
+            row.setTag(listViewHolder);
+        }
+        else
+        {
+            row=convertView;
+            listViewHolder= (com.example.getveggiesfruits.ListViewHolder) row.getTag();
+        }
+        final ProductsVeggiesAndFruits products = getItem(position);
+
+        listViewHolder.tvProductName.setText(products.ProductName);
+        listViewHolder.ivProduct.setImageResource(products.ProductImage);
+        listViewHolder.tvPrice.setText(products.ProductPrice+" $");
+        listViewHolder.edTextQuantity.setText(products.CartQuantity+"");
+        listViewHolder.btnPlus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+                updateQuantity(position,listViewHolder.edTextQuantity,1);
+            }
+        });
+        //listViewHolder.edTextQuantity.setText("0");
+        listViewHolder.btnMinus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                updateQuantity(position,listViewHolder.edTextQuantity,-1);
+
+            }
+        });
+
+        return row;
+    }
+
+    private void updateQuantity(int position, EditText edTextQuantity, int value) {
+
+        ProductsVeggiesAndFruits products = getItem(position);
+        if(value > 0)
+        {
+            products.CartQuantity = products.CartQuantity + 1;
+        }
+        else
+        {
+            if(products.CartQuantity > 0)
+            {
+                products.CartQuantity = products.CartQuantity - 1;
+            }
+
+        }
+        edTextQuantity.setText(products.CartQuantity+"");
     }
 }

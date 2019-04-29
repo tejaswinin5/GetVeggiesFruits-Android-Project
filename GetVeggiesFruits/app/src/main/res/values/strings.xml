@@ -1,9 +1,23 @@
 <resources>
     <string name="app_name">Get Veggies &amp; Fruits</string>
     <string name="card_prompt">Choose a payment type</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">1hGzLf7icG1wBxgV2upZZ4Czd7L5gNMPIE0dYTSP</string>
+    <string name="back4app_client_key">PuC8u3JewvWDdZ9haYKRD8BkYH0ZanVsTO6OSEuT</string>
     <string-array name="country_arrays">
         <item>Cash on delivery</item>
-        <item>DebitCard or credit card</item>
+        <item>DebitCard or Credit card</item>
+    </string-array>
+    <string-array name="card_names">
+        <item>Visa</item>
+        <item>Amex</item>
+        <item>MasterCard</item>
+        <item>Discover</item>
+    </string-array>
 
+    <string-array name="names1">
+        <item>CreditCard</item>
+        <item>DebitCard</item>
     </string-array>
 </resources>

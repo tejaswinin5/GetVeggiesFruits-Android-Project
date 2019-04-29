@@ -5,6 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -14,11 +18,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button btn = (Button) findViewById(R.id.button);
-        btn.setOnClickListener(new View.OnClickListener() {
+        Button store = (Button) findViewById(R.id.button);
+        store.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent myIntent = new Intent(MainActivity.this, SelectStoreActivity.class);
+                myIntent.putExtra("StroreName","Kansas");
                 startActivityForResult(myIntent, 1);
             }
         });
@@ -30,13 +35,34 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(myIntent, 1);
             }
         });
-        Button cntButton = (Button) findViewById(R.id.CONTINUE);
-        cntButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myIntent = new Intent(MainActivity.this, VeggiesandFruitsActivity.class);
-                startActivityForResult(myIntent, 1);
-            }
-        });
+
+
+
+            Button cntButton = (Button) findViewById(R.id.CONTINUE);
+            cntButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    EditText tv=(EditText) findViewById(R.id.StoreName);
+                    if(!tv.getText().toString().equals("")) {
+                        System.out.println("text"+tv.getText().toString()+"jhghggh");
+                        System.out.println("I m selected");
+                        Intent myIntent = new Intent(MainActivity.this, VeggiesandFruitsActivity.class);
+                        startActivityForResult(myIntent, 1);
+                    }
+                    else
+                    {
+                        Toast.makeText(getApplicationContext(),"Select the store",Toast.LENGTH_SHORT).show();
+                    }
+                }
+            });
+
+
+    }
+    public void onActivityResult(int resultcode, int errorcode, Intent in){
+        if(resultcode ==1){
+            String store  = in.getStringExtra("StoreName");
+            EditText selectedStoreName = (EditText) findViewById(R.id.StoreName);
+            selectedStoreName.setText(store);
+        }
     }
 }
