@@ -13,10 +13,9 @@
 
 
 <h2> Introduction to our Project:</h2>
-<p>Talking of offline marketing, it has been the traditional way of shopping, where we could physically see the shop and even the product.
-Its an extra effort to go physically to the  market and get items needed.
- Online shopping is the best and easy way to shop your products. Not only you save up a lot of time but also you get the variety of good at one place. You can search for your item by setting the budgets. 
-Online shopping is the best and easy way to shop your products. Not only you save up a lot of time but also you get the variety of good at one place. ... The stats of why people prefer online shopping over offline shopping can give you a better understanding of customer behavior.
+<p>Talking of offline marketing, it has been the traditional way of shopping, where we could physically see the shop and even the product.Its an extra effort to go physically to the  market and get items needed.</p>
+<p> Online shopping is the best and easy way to shop your products. Not only you save up a lot of time but also you get the variety of good at one place. You can search for your item by setting the budgets. </p>
+<p>Online shopping is the best and easy way to shop your products. Not only you save up a lot of time but also you get the variety of good at one place. ... The stats of why people prefer online shopping over offline shopping can give you a better understanding of customer behavior.
  </p>
 <h2>Specifications/Support Version:</h2>
 
