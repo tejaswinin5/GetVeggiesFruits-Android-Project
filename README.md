@@ -27,6 +27,7 @@ Size: 1440*2960 in Genymotion.</p>
 Database: Back4App.com (Cloud database using MBAAS-Mobile backend as a service.)
 
 <h2> APK File:</h2>
+https://github.com/SaiTejaswiniNarne/GetVeggiesFruits-Android-Project/blob/master/apk/GetVeggies%20Fruits.apk
 
 <h2>Installation Steps</h2>
 <ul>
