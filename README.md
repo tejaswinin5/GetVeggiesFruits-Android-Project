@@ -36,6 +36,14 @@ By clicking on the apk file, It install's the app in your android mobile.
 Once the App gets installed the user can click on the App icon to open it.
 Later on, the user can register into the app and can buy veggies and fruits whenever they need.
 </ul>
+
+<h2>Requirements:</h2>
+<p></p>
+<h2>Sources used for our Project:</h2>
+<p></p>
+<h2>Tes Credentials:</h2>
+<p>
+</p>
 <h2>Layouts of our project:<h2>
  
 <p>This is an Welcome page of the webiste which shows the options to select store and Delals of the day and continue to select the list of items.</p>
@@ -87,3 +95,5 @@ This is the billing page of the customer which ask to fill some required details
 This is the end page of the order summary of the customer that shows the tracking id and order id of the customer. It also has an option to go back to the main page to select the more items.
 
 ![9](https://user-images.githubusercontent.com/42948603/55750311-9f475080-5a08-11e9-8cf3-895abed22335.PNG)
+<h2>Contribution Link:</h2>
+https://github.com/SaiTejaswiniNarne/GetVeggiesFruits-Android-Project/graphs/contributors
