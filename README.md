@@ -3,11 +3,13 @@
 <h1>App Name: GetVeggiesFruits</h1>
 <h2>App Logo<h2>
  
-<h2>Team Members:
-1. Akshara Gurram
-2. Harika Naidu
-3. Sai Tejaswini Narne
-4. Sonam Gadekari</h2>
+![0](https://user-images.githubusercontent.com/43020059/56874611-a1497180-6a00-11e9-99d8-b0dfb7153e10.jpg)
+
+<h2>Team Members:</h2>
+ <li>1. Akshara Gurram</li>
+ <li>2. Harika Naidu</li>
+ <li>3. Sai Tejaswini Narne</li>
+ <li>4. Sonam Gadekari</li>
 
 
 <h2> Introducation to our Project:</h2>
