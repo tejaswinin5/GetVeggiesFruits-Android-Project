@@ -1,23 +1,24 @@
 # GetVeggiesFruits-Android-Project
 
-<h1>Project Name: GetVeggiesFruits</h1>
+<h1>App Name: GetVeggiesFruits</h1>
 <h2>App Logo<h2>
-  ![appicon](https://user-images.githubusercontent.com/42949313/56874138-875a5f80-69fd-11e9-9324-70e52e1d636c.png)
+ 
+<h2>Team Members:
+1. Akshara Gurram
+2. Harika Naidu
+3. Sai Tejaswini Narne
+4. Sonam Gadekari</h2>
 
 
-Team Members:
-Harika Naidu
-Sai Tejaswini Narne
-Sonam Gadekari
-Akshara Gurram
+<h2> Introducation to our Project:</h2>
 
-Specifications:
+<h2>Specifications/Support Version:</h2>
 
-We are using android API version of 9.0-API 28 in GENY MOTION. The size of the layout is 1440x2960 with a density of 560. 
+<p>We are using android API version of 9.0-API 28 in GENY MOTION. The size of the layout is 1440x2960 with a density of 560. 
 The complete details of the device we have used in our project is:
 Device Name: Google Pixel 3 XL
 Android API: 9.0 API 28
-Size: 1440*2960 in Genymotion.
+Size: 1440*2960 in Genymotion.</p>
 Database: Back4App.com (Cloud database using MBAAS-Mobile backend as a service.)
 
 Layouts of our project:
