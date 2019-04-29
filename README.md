@@ -1,5 +1,10 @@
 # GetVeggiesFruits-Android-Project
 
+<h1>Project Name: GetVeggiesFruits</h1>
+<h2>App Logo<h2>
+  ![appicon](https://user-images.githubusercontent.com/42949313/56874138-875a5f80-69fd-11e9-9324-70e52e1d636c.png)
+
+
 Team Members:
 Harika Naidu
 Sai Tejaswini Narne
