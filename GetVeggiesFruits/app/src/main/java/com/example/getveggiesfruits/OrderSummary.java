@@ -11,14 +11,6 @@ import java.util.Random;
 
 public class OrderSummary extends AppCompatActivity {
     public static  final int HAPPY=0;
-    String customerFName;
-    String customerLName;
-    String customerAddress;
-    String customerCardType;
-    String customerCardNumber;
-    String customerExpirationDate;
-    String customerCVV;
-    //String CustomerCardNumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
