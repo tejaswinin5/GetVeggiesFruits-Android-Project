@@ -12,8 +12,12 @@
  <li>4. Sonam Gadekari</li>
 
 
-<h2> Introducation to our Project:</h2>
-<p> </p>
+<h2> Introduction to our Project:</h2>
+<p>Talking of offline marketing, it has been the traditional way of shopping, where we could physically see the shop and even the product.
+Its an extra effort to go physically to the  market and get items needed.
+ Online shopping is the best and easy way to shop your products. Not only you save up a lot of time but also you get the variety of good at one place. You can search for your item by setting the budgets. 
+Online shopping is the best and easy way to shop your products. Not only you save up a lot of time but also you get the variety of good at one place. ... The stats of why people prefer online shopping over offline shopping can give you a better understanding of customer behavior.
+ </p>
 <h2>Specifications/Support Version:</h2>
 
 <p>We are using android API version of 9.0-API 28 in GENY MOTION. The size of the layout is 1440x2960 with a density of 560. 
