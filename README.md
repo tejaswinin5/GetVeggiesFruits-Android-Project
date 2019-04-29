@@ -55,8 +55,10 @@ https://www.youtube.com/watch?v=tLVz5wmNyrw
 </p>
 <h2>Test Credentials:</h2>
 <p>
+ <ul>
  Username: sonam.gadekari@gmail.com
  password: Sonam
+ </ul>
 </p>
 <h2>Layouts of our project:<h2>
  
