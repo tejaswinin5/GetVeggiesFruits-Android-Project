@@ -41,3 +41,35 @@ public class VeggiesandFruitsActivity extends AppCompatActivity {
                 startActivityForResult(myIntent, 1);
             }
         });
+        Button veggiedetails = (Button) findViewById(R.id.veggiedetails);
+        veggiedetails.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(VeggiesandFruitsActivity.this, VeggieDetailsActivity.class);
+                startActivityForResult(myIntent, 1);
+            }
+        });
+        Button button2 = (Button) findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                initModel();
+                listView.invalidateViews();
+            }
+        });
+
+    }
+    private void initModel(){
+        Name.clear();
+        Count.clear();
+        Name.add("Apples");
+        Count.add(0);
+        Name.add("Oranges");
+        Count.add(0);
+        Name.add("Grapes");
+        Count.add(0);
+        Name.add("Tomatoes");
+        Count.add(0);
+        Name.add("Onions");
+        Count.add(0);
+    }
