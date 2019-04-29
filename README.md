@@ -23,7 +23,7 @@
 The complete details of the device we have used in our project is:
 Device Name: Google Pixel 3 XL
 Android API: 9.0 API 28
-Size: 1440*2960 in Genymotion.</p>
+Size: 1440*2960 in Genymotion</p>
 Database: Back4App.com (Cloud database using MBAAS-Mobile backend as a service.)
 
 <h2> APK File:</h2>
