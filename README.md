@@ -38,11 +38,25 @@ Later on, the user can register into the app and can buy veggies and fruits when
 </ul>
 
 <h2>Requirements:</h2>
-<p></p>
+<p>
+<ul>
+Mobile with the Android operating System.
+We need the above API properties to run the app and to have good user interface.
+Minimum 1 GB RAM.
+Minimum 8 GB internal storage
+To run this app we need internet.
+</ul>
+</p>
 <h2>Sources used for our Project:</h2>
-<p></p>
+<p>
+https://stackoverflow.com/questions/15748558/android-developer-documentation-download
+https://nwmissouri.instructure.com/courses/20930/files/2510913?module_item_id=546767
+https://www.youtube.com/watch?v=tLVz5wmNyrw
+</p>
 <h2>Test Credentials:</h2>
 <p>
+ Username: sonam.gadekari@gmail.com
+ password: Sonam
 </p>
 <h2>Layouts of our project:<h2>
  
