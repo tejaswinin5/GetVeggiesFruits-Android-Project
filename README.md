@@ -106,8 +106,8 @@ This is the page after user does login
 ![Capture5](https://user-images.githubusercontent.com/43020059/55767855-2a900880-5a40-11e9-9e6b-66c8e51c1b46.JPG)
 
 This is the billing page of the customer which ask to fill some required details of the customer to the payment methods.
+![Capture](https://user-images.githubusercontent.com/43020059/56878539-37d65c80-6a1a-11e9-8cbe-5ee352fbdaa8.JPG)
 
-![8](https://user-images.githubusercontent.com/42948603/55750290-93f42500-5a08-11e9-86bb-190cee296621.PNG)
 
 This is the end page of the order summary of the customer that shows the tracking id and order id of the customer. It also has an option to go back to the main page to select the more items.
 
