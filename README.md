@@ -13,7 +13,7 @@
 
 
 <h2> Introducation to our Project:</h2>
-
+<p> </p>
 <h2>Specifications/Support Version:</h2>
 
 <p>We are using android API version of 9.0-API 28 in GENY MOTION. The size of the layout is 1440x2960 with a density of 560. 
@@ -23,8 +23,11 @@ Android API: 9.0 API 28
 Size: 1440*2960 in Genymotion.</p>
 Database: Back4App.com (Cloud database using MBAAS-Mobile backend as a service.)
 
-Layouts of our project:
-This is an Welcome page of the webiste which shows the options to select store and Delals of the day and continue to select the list of items.
+<h2> APK File:</h2>
+
+<h2>Layouts of our project:<h2>
+ 
+<p>This is an Welcome page of the webiste which shows the options to select store and Delals of the day and continue to select the list of items.</p>
 
 ![1](https://user-images.githubusercontent.com/42948603/55749793-71add780-5a07-11e9-97f5-ef6bd5194fe1.PNG)
 
