@@ -132,3 +132,41 @@ public class BillingActivity extends AppCompatActivity {
 
         return sum;
     }
+    // Return this number if it is a single digit, otherwise,
+    // return the sum of the two digits
+    public static int getDigit(int number)
+    {
+        if (number < 9)
+            return number;
+        return number / 10 + number % 10;
+    }
+    public static int sumOfOddPlace(long number)
+    {
+        int sum = 0;
+        String num = number + "";
+        for (int i = getSize(number) - 1; i >= 0; i -= 2)
+            sum += Integer.parseInt(num.charAt(i) + "");
+        return sum;
+    }
+
+    // Return true if the digit d is a prefix for number
+    public static boolean prefixMatched(long number, int d)
+    {
+        return getPrefix(number, getSize(d)) == d;
+    }
+
+    // Return the number of digits in d
+    public static int getSize(long d)
+    {
+        String num = d + "";
+        return num.length();
+    }
+    public static long getPrefix(long number, int k)
+    {
+        if (getSize(number) > k) {
+            String num = number + "";
+            return Long.parseLong(num.substring(0, k));
+        }
+        return number;
+    }
+}
