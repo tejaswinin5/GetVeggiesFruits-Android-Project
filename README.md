@@ -28,6 +28,14 @@ Database: Back4App.com (Cloud database using MBAAS-Mobile backend as a service.)
 
 <h2> APK File:</h2>
 
+<h2>Installation Steps</h2>
+<ul>
+Installation of this app is much more easier with just few steps
+The User can download the apk file of the GetVeggiesFruits App.
+By clicking on the apk file, It install's the app in your android mobile.
+Once the App gets installed the user can click on the App icon to open it.
+Later on, the user can register into the app and can buy veggies and fruits whenever they need.
+</ul>
 <h2>Layouts of our project:<h2>
  
 <p>This is an Welcome page of the webiste which shows the options to select store and Delals of the day and continue to select the list of items.</p>
