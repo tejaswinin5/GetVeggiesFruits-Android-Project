@@ -11,14 +11,13 @@
  <li>3. Sai Tejaswini Narne</li>
  <li>4. Sonam Gadekari</li>
 
-
 <h2> Introduction to our Project:</h2>
 <p>Talking of offline marketing, it has been the traditional way of shopping, where we could physically see the shop and even the product.Its an extra effort to go physically to the  market and get items needed.</p>
 <p> Online shopping is the best and easy way to shop your products. Not only you save up a lot of time but also you get the variety of good at one place. You can search for your item by setting the budgets. </p>
 <p>Online shopping is the best and easy way to shop your products. Not only you save up a lot of time but also you get the variety of good at one place. ... The stats of why people prefer online shopping over offline shopping can give you a better understanding of customer behavior.
  </p>
+ 
 <h2>Specifications/Support Version:</h2>
-
 <p>We are using android API version of 9.0-API 28 in GENY MOTION. The size of the layout is 1440x2960 with a density of 560. 
 The complete details of the device we have used in our project is:
 Device Name: Google Pixel 3 XL
@@ -48,12 +47,14 @@ Minimum 8 GB internal storage
 To run this app we need internet.
 </ul>
 </p>
+
 <h2>Sources used for our Project:</h2>
 <p>
 https://stackoverflow.com/questions/15748558/android-developer-documentation-download
 https://nwmissouri.instructure.com/courses/20930/files/2510913?module_item_id=546767
 https://www.youtube.com/watch?v=tLVz5wmNyrw
 </p>
+
 <h2>Test Credentials:</h2>
 <p>
 <ul>
@@ -61,6 +62,7 @@ https://www.youtube.com/watch?v=tLVz5wmNyrw
  password: Sonam
  </ul>
 </p>
+
 <h2>Layouts of our project:<h2>
  
 <p>This is an Welcome page of the webiste which shows the options to select store and Delals of the day and continue to select the list of items.</p>
@@ -70,6 +72,7 @@ https://www.youtube.com/watch?v=tLVz5wmNyrw
 This is an locations page of the store which are available and select the required one which displays to the main page.
 
 ![2](https://github.com/SaiTejaswiniNarne/GetVeggiesFruits-Android-Project/blob/master/location%20Screen%20Shot.JPG)
+
 ![2.1](https://github.com/SaiTejaswiniNarne/GetVeggiesFruits-Android-Project/blob/master/location1.PNG)
 
 This is an Deals of the day page which shows the current deals available and then go back to the main page.
