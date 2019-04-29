@@ -70,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/getveggiesfruits/VeggiesandFruitsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+            <state relative-caret-position="237">
+              <caret line="122" column="1" lean-forward="true" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#462#470#0" expanded="true" />
@@ -79,10 +79,10 @@
                 <element signature="e#607#614#0" expanded="true" />
                 <element signature="e#1342#1617#0" expanded="true" />
                 <element signature="e#1616#1617#0" expanded="true" />
-                <element signature="e#1735#2010#0" expanded="true" />
-                <element signature="e#2009#2010#0" expanded="true" />
-                <element signature="e#2110#2299#0" expanded="true" />
-                <element signature="e#2298#2299#0" expanded="true" />
+                <element signature="e#1736#2011#0" expanded="true" />
+                <element signature="e#2010#2011#0" expanded="true" />
+                <element signature="e#2111#2300#0" expanded="true" />
+                <element signature="e#2299#2300#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -289,8 +289,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/getveggiesfruits/VeggiesandFruitsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+        <state relative-caret-position="237">
+          <caret line="122" column="1" lean-forward="true" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#462#470#0" expanded="true" />
@@ -298,10 +298,10 @@
             <element signature="e#607#614#0" expanded="true" />
             <element signature="e#1342#1617#0" expanded="true" />
             <element signature="e#1616#1617#0" expanded="true" />
-            <element signature="e#1735#2010#0" expanded="true" />
-            <element signature="e#2009#2010#0" expanded="true" />
-            <element signature="e#2110#2299#0" expanded="true" />
-            <element signature="e#2298#2299#0" expanded="true" />
+            <element signature="e#1736#2011#0" expanded="true" />
+            <element signature="e#2010#2011#0" expanded="true" />
+            <element signature="e#2111#2300#0" expanded="true" />
+            <element signature="e#2299#2300#0" expanded="true" />
           </folding>
         </state>
       </provider>

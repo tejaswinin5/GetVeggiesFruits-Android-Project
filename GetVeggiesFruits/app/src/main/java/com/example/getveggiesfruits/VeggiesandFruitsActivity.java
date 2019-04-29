@@ -41,6 +41,7 @@ public class VeggiesandFruitsActivity extends AppCompatActivity {
                 startActivityForResult(myIntent, 1);
             }
         });
+
         Button veggiedetails = (Button) findViewById(R.id.veggiedetails);
         veggiedetails.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,35 +74,50 @@ public class VeggiesandFruitsActivity extends AppCompatActivity {
         Name.add("Onions");
         Count.add(0);
     }
-    Button veggiedetails = (Button) findViewById(R.id.veggiedetails);
-        veggiedetails.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            Intent myIntent = new Intent(VeggiesandFruitsActivity.this, VeggieDetailsActivity.class);
-            startActivityForResult(myIntent, 1);
-        }
-    });
-    Button button2 = (Button) findViewById(R.id.button2);
-        button2.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            initModel();
-            listView.invalidateViews();
-        }
-    });
 
-}
-    private void initModel(){
-        Name.clear();
-        Count.clear();
-        Name.add("Apples");
-        Count.add(0);
-        Name.add("Oranges");
-        Count.add(0);
-        Name.add("Grapes");
-        Count.add(0);
-        Name.add("Tomatoes");
-        Count.add(0);
-        Name.add("Onions");
-        Count.add(0);
+
+    private void placeOrder()
+    {
+        productOrders.clear();
+        for(int i=0;i<listAdapter.listProducts.size();i++)
+        {
+            if(listAdapter.listProducts.get(i).CartQuantity > 0)
+            {
+                ProductsVeggiesAndFruits products = new ProductsVeggiesAndFruits(
+                        listAdapter.listProducts.get(i).ProductName
+                        ,listAdapter.listProducts.get(i).ProductPrice
+                        ,listAdapter.listProducts.get(i).ProductImage
+                );
+                products.CartQuantity = listAdapter.listProducts.get(i).CartQuantity;
+                productOrders.add(products);
+            }
+        }
     }
+
+    public void getProduct() {
+        products.add(new ProductsVeggiesAndFruits("Apples",2.29d,R.drawable.appleicon));
+        products.add(new ProductsVeggiesAndFruits("Oranges",2.0d,R.drawable.orange));
+        products.add(new ProductsVeggiesAndFruits("Grapes",3.0d,R.drawable.grapes));
+        products.add(new ProductsVeggiesAndFruits("Tomatoes",2.0d,R.drawable.tomato));
+        products.add(new ProductsVeggiesAndFruits("Onions",5.0d,R.drawable.onion));
+        products.add(new ProductsVeggiesAndFruits("Mandarin Oranges",3.2d,R.drawable.orange));
+        products.add(new ProductsVeggiesAndFruits("Apples-Royal",2.560d,R.drawable.apples));
+        products.add(new ProductsVeggiesAndFruits("Mango",1.78d,R.drawable.mango));
+        products.add(new ProductsVeggiesAndFruits("Kiwi",3.62d,R.drawable.kiwi));
+        products.add(new ProductsVeggiesAndFruits("Potatoes",4.7d,R.drawable.potatoes));
+
+    }
+
+    public void returnToMAin(View v)
+    {
+        Intent myIntent = new Intent(VeggiesandFruitsActivity.this, MainActivity.class);
+        startActivityForResult(myIntent,1);
+    }
+
+    public void proceedToLogin(View v)
+    {
+        Intent myIntent = new Intent(VeggiesandFruitsActivity.this, LoginActivity.class);
+        placeOrder();
+        startActivityForResult(myIntent,1);
+    }
+}
