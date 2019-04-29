@@ -84,7 +84,20 @@
         app:layout_constraintStart_toEndOf="@+id/ib_addnew"
         app:layout_constraintTop_toBottomOf="@+id/tvProductName" />
 
-    
+
+    <ImageButton
+        android:id="@+id/ib_remove"
+        android:layout_width="47dp"
+        android:layout_height="38dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#00ffffff"
+        android:scaleType="centerInside"
+        android:src="@drawable/decrease"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvProductName" />
 
 
 </android.support.constraint.ConstraintLayout>
