@@ -45,7 +45,8 @@ This is an Deals of the day page which shows the current deals available and the
 
 This is an items page which contains the list of items that are used to select the required items to increase the number by one LB and also have an options to know the description the fruits and veggies.
 
-![4](https://user-images.githubusercontent.com/42948603/55750135-48da1200-5a08-11e9-8764-7bcc0e209dcf.PNG)
+
+![4](https://user-images.githubusercontent.com/42949313/56875332-ce4c5300-6a05-11e9-8d40-c73b65a47543.PNG)
 
 This is the description page of fruits.
 
