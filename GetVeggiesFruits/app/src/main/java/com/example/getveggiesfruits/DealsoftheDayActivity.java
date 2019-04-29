@@ -16,13 +16,12 @@ public class DealsoftheDayActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dealsofthe_day);
     }
+            public void returntoMainPage(View v) {
+                Intent intent = getIntent();
+                setResult(HAPPY, intent);
+                finish();
+            }
 
-    public void returntoMainPage(View v) {
-        Intent intent = getIntent();
-        setResult(HAPPY, intent);
-        finish();
-    }
 
-
-}
+        }
 
