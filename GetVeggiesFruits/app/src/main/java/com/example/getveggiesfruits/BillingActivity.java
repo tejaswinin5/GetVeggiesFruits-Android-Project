@@ -78,7 +78,7 @@ public class BillingActivity extends AppCompatActivity {
                     DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
                     Date date = new Date();
                     System.out.println(dateFormat.format(date));
-                    billing.put("CustomerFName",customerNumber.getText().toString());
+                    billing.put("CustomerFName",customerFName.getText().toString());
                     billing.put("CustomerLName",customerLName.getText().toString());
                     billing.put("CustomerAddress",customerAddress.getText().toString());
                     billing.put("OrderDate",dateFormat.format(date));

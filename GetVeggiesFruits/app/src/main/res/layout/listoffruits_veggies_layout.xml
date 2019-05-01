@@ -50,6 +50,17 @@
         app:layout_constraintTop_toBottomOf="@+id/tvProductName" />
 
 
+    <TextView
+        android:id="@+id/tvPrice2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/ivProduct"
+        app:layout_constraintTop_toBottomOf="@+id/tvProductName" />
+
     <ImageButton
         android:id="@+id/ib_addnew"
         android:layout_width="48dp"

@@ -95,16 +95,16 @@ public class VeggiesandFruitsActivity extends AppCompatActivity {
     }
 
     public void getProduct() {
-        products.add(new ProductsVeggiesAndFruits("Apples",2.29d,R.drawable.appleicon));
-        products.add(new ProductsVeggiesAndFruits("Oranges",2.0d,R.drawable.orange));
-        products.add(new ProductsVeggiesAndFruits("Grapes",3.0d,R.drawable.grapes));
-        products.add(new ProductsVeggiesAndFruits("Tomatoes",2.0d,R.drawable.tomato));
-        products.add(new ProductsVeggiesAndFruits("Onions",5.0d,R.drawable.onion));
-        products.add(new ProductsVeggiesAndFruits("Mandarin Oranges",3.2d,R.drawable.orange));
-        products.add(new ProductsVeggiesAndFruits("Apples-Royal",2.560d,R.drawable.apples));
-        products.add(new ProductsVeggiesAndFruits("Mango",1.78d,R.drawable.mango));
-        products.add(new ProductsVeggiesAndFruits("Kiwi",3.62d,R.drawable.kiwi));
-        products.add(new ProductsVeggiesAndFruits("Potatoes",4.7d,R.drawable.potatoes));
+        products.add(new ProductsVeggiesAndFruits("Apples","2.2 /LB",R.drawable.appleicon));
+        products.add(new ProductsVeggiesAndFruits("Oranges","2.1 /LB",R.drawable.orange));
+        products.add(new ProductsVeggiesAndFruits("Grapes","3.1 /LB",R.drawable.grapes));
+        products.add(new ProductsVeggiesAndFruits("Tomatoes","2.0 /LB",R.drawable.tomato));
+        products.add(new ProductsVeggiesAndFruits("Onions","5.0 /LB",R.drawable.onion));
+        products.add(new ProductsVeggiesAndFruits("Mandarin Oranges","3.2 /LB",R.drawable.orange));
+        products.add(new ProductsVeggiesAndFruits("Apples-Royal","2.560 /LB",R.drawable.apples));
+        products.add(new ProductsVeggiesAndFruits("Mango","1.78 /LB",R.drawable.mango));
+        products.add(new ProductsVeggiesAndFruits("Kiwi","3.62 /LB",R.drawable.kiwi));
+        products.add(new ProductsVeggiesAndFruits("Potatoes","4.7 /LB",R.drawable.potatoes));
 
     }
 
