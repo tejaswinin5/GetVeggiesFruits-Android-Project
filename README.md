@@ -10,6 +10,8 @@
  <li>2. Harika Naidu</li>
  <li>3. Sai Tejaswini Narne</li>
  <li>4. Sonam Gadekari</li>
+ 
+ Additional functionality of Login is added to the project
 
 <h2> Introduction to our Project:</h2>
 <p>Talking of offline marketing, it has been the traditional way of shopping, where we could physically see the shop and even the product.Its an extra effort to go physically to the  market and get items needed.</p>
@@ -59,7 +61,7 @@ https://www.youtube.com/watch?v=tLVz5wmNyrw
 <p>
 <ul>
  Username: sonam.gadekari@gmail.com
- password: Sonam
+ password: Suman
  </ul>
 </p>
 
